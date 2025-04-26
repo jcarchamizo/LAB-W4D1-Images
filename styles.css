@@ -1,4 +1,4 @@
-/* --- Estilos base: Mobile First --- */
+/* --- Mobile First --- */
 body {
     margin: 0;
     font-family: 'Helvetica Neue', Arial, sans-serif;
@@ -6,7 +6,7 @@ body {
     color: #333;
 }
 
-.encabezado {
+.header {
     text-align: center;
     padding: 20px;
     background-color: #ffefd5;
@@ -17,19 +17,19 @@ h1 {
     color: #5D3A00;
 }
 
-.encabezado p {
+.header p {
     font-size: 1rem;
     margin-top: 10px;
 }
 
-.galeria {
+.gallery {
     display: flex;
     flex-direction: column;
     padding: 20px;
     gap: 20px;
 }
 
-.imagen {
+.image {
     background: white;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
@@ -37,32 +37,32 @@ h1 {
     text-align: center;
 }
 
-.imagen img {
+.image img {
     width: 100%;
     height: auto;
     display: block;
 }
 
-.imagen h2 {
+.image h2 {
     margin: 15px 0 5px;
     font-size: 1.5rem;
     color: #8B4513;
 }
 
-.imagen p {
+.image p {
     padding: 0 10px 15px;
     font-size: 1rem;
 }
 
-/* --- Estilos para Desktop --- */
+/* --- Styles for Desktop --- */
 @media (min-width: 768px) {
-    .galeria {
+    .gallery {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    .imagen {
+    .image {
         flex: 0 1 30%;
         margin: 10px;
     }
@@ -71,15 +71,15 @@ h1 {
         font-size: 2.5rem;
     }
 
-    .encabezado p {
+    .header p {
         font-size: 1.2rem;
     }
 
-    .imagen h2 {
+    .image h2 {
         font-size: 1.8rem;
     }
 
-    .imagen p {
+    .image p {
         font-size: 1.1rem;
     }
 }
